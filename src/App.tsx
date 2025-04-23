@@ -9,8 +9,6 @@ const ScrollAnimation = () => {
     offset: ["start end", "end start"],
   });
 
-  // scrollYProgress: 0 → ელემენტი ბოლომდე ჯერ არ გამოჩენილა
-  // scrollYProgress: 1 → მთლიანად გამოჩნდა viewport-ში
 
   const y = useTransform(scrollYProgress, [0, 1], [100, 0]);
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
@@ -33,7 +31,7 @@ const ScrollAnimation = () => {
           borderRadius: 20,
         }}
       >
-        Scroll Animate!
+        aleko here bro
       </motion.div>
     </div>
   );
